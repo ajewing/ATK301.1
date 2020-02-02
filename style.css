@@ -1,0 +1,29 @@
+
+
+
+<!-- HTML -->
+<p>
+ <a href="http://www.ilstu.edu" >Illinois State University</a>
+</p>
+
+/* CSS */
+h1 {
+ color: #FFFFFF;
+ background-color:#80CBB3
+}
+
+link {
+ color: #ff0000;
+}
+
+visited {
+ color: #008000;
+}
+
+active {
+ color: #00ffff;
+}
+
+hover {
+ color: #ffff00;
+}
