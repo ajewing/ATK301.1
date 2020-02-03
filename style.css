@@ -4,12 +4,24 @@
 <!-- HTML -->
 <p>
  <a href="assignment3.html">assignment 3</a>
+ <a href="pagecss2.html"> page 2 </a>
+ <a href="pagecss3.html"> page 3 </a>
 </p>
 
+
 /* CSS */
+
+#diveexample {
+  color: #0000FF;
+}
+
+.spanstyle {
+  color: #00FF00;
+}
+
 h1 {
  color: #FFFFFF;
- background-color:#80CBB3
+ background-color:#80CBB3;
 }
 
 link {
@@ -29,11 +41,11 @@ hover {
 }
 
 Specialid {
-  color: #00FF00
-  background-color: #000000
+  color: #00FF00;
+  background-color: #000000;
 }
 
 .Specialp {
-  color: #ff0000
-  background-color: #00FF00
+  color: #ff0000;
+  background-color: #00FF00;
 }
