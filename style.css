@@ -27,3 +27,13 @@ active {
 hover {
  color: #ffff00;
 }
+
+Specialid {
+  color: #00FF00
+  background-color: #000000
+}
+
+.Specialp {
+  color: #ff0000
+  background-color: #00FF00
+}
