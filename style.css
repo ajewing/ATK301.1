@@ -25,6 +25,10 @@ h3 {
   background-color: #00ffff;
 }
 
+a {
+ color: #ff0000;
+}
+
 a:link {
  color: #ff0000;
 }
