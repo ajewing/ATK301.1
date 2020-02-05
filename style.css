@@ -2,7 +2,7 @@
 
 /* CSS */
 
-#diveexample {
+#divexample {
   color: #0000FF;
 }
 
@@ -25,23 +25,23 @@ h3 {
   background-color: #00ffff;
 }
 
-link {
+a:link {
  color: #ff0000;
 }
 
-a: visited {
+a:visited {
  color: #008000;
 }
 
-a: active {
+a:active {
  color: #00ffff;
 }
 
-a: hover {
+a:hover {
  color: #ffff00;
 }
 
-a: Specialid {
+#Specialid {
   color: #00FF00;
   background-color: #000000;
 }
