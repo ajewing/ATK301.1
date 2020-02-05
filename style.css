@@ -15,23 +15,33 @@ h1 {
  background-color:#80CBB3;
 }
 
+h2 {
+  color: #FFFFFF;
+  background-color: #ff0000;
+}
+
+h3 {
+  color: #ffff00;
+  background-color: #00ffff;
+}
+
 link {
  color: #ff0000;
 }
 
-visited {
+a: visited {
  color: #008000;
 }
 
-active {
+a: active {
  color: #00ffff;
 }
 
-hover {
+a: hover {
  color: #ffff00;
 }
 
-Specialid {
+a: Specialid {
   color: #00FF00;
   background-color: #000000;
 }
