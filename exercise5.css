@@ -1,3 +1,6 @@
+.divexample {
+background-color: #cc99ff;
+}
 
 
 h1 {
@@ -27,7 +30,6 @@ h5 {
 
 a:link {
  color: #00ff00;
- text-decoration:none;
 }
 
 a:hover {
@@ -38,6 +40,6 @@ a:hover {
   color: #ff0000;
 }
 
-#divexample {
-background-color: #00ff00;
+.Specialid {
+  background-color: #00FF00;
 }
