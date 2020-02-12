@@ -7,36 +7,18 @@ font-size: 20px;
 
 h1 {
   color: orange
-  font-style: italic
-  font-weight:
-}
-
-h2 {
-  color: orange
-  font-style: italic
-  font-weight:
-}
-
-h3 {
-  color: orange
-  font-style: italic
-  font-weight:
-}
-
-h4 {
-  color: orange
-  font-style: italic
+  font-style: italic;
   font-weight:
 }
 
 .imgbox{
   border: bold 10px solid #black;
   padding:5x;
-  background-color: white
+  background-color: white;
 }
 
 .textcenter {
-  tex-align: center
+  tex-align: center;
 }
 
 .textjustify {
@@ -45,4 +27,57 @@ h4 {
 
 body {
   background-image: url(images/warriors.jpg);
+}
+
+#divexample {
+  color: #0000FF;
+}
+
+.spanstyle {
+  color: #00FF00;
+}
+
+h1 {
+ color: #FFFFFF;
+ background-color:#80CBB3;
+}
+
+h2 {
+  color: #FFFFFF;
+  background-color: #ff0000;
+}
+
+h3 {
+  color: #ffff00;
+  background-color: #00ffff;
+}
+
+a {
+ color: #ff0000;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #008000;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+#Specialid {
+  color: #00FF00;
+  background-color: #000000;
+}
+
+.Specialp {
+  color: #ff0000;
+  background-color: #00FF00;
 }
