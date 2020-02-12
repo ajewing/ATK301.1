@@ -8,12 +8,11 @@ font-size: 20px;
 h1 {
   color: orange
   font-style: italic;
-  font-weight:
 }
 
 .imgbox{
-  border: bold 10px solid #black;
-  padding:5x;
+  border: 10px solid black;
+  padding:5px;
   background-color: white;
 }
 
@@ -38,8 +37,7 @@ body {
 }
 
 h1 {
- color: #FFFFFF;
- background-color:#80CBB3;
+ color: #ffa500;
 }
 
 h2 {
