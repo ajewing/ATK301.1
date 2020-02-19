@@ -1,0 +1,36 @@
+body {
+background-color: #ffd633;
+background-image: url(Lakeith.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+.imgbox{
+  border: 10px solid black;
+  padding:5px;
+  background-color: white;
+}
+
+.bordertop {
+  border-top: 1px solid #9933ff;
+}
+
+.borderbottom {
+  border-bottom: 1px solid #9933ff;
+}
+
+.customtext {
+  color: #ff3300;
+}
+
+.customtextt {
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px
+}
