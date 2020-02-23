@@ -1,4 +1,13 @@
+body {
+background-color: #ffd633;
 
+}
+
+.imgbox{
+  border: 10px solid black;
+  padding:5px;
+  background-color: white;
+}
 
 .bordertop {
   border-top: 2px solid #9933ff;
