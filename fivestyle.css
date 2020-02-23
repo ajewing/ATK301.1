@@ -1,7 +1,11 @@
 body {
 background-color: #ffd633;
-
+font-family: impact; 
+background-image: url(images/Lakeith.jpg);
+background-repeat: no-repeat;
+background-position: top left;
 }
+
 
 .imgbox{
   border: 10px solid black;
