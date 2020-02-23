@@ -1,15 +1,4 @@
-body {
-background-color: #ffd633;
-background-image: url(Lakeith.jpg);
-background-repeat: no-repeat;
-background-position: top left;
-}
 
-.imgbox{
-  border: 10px solid black;
-  padding:5px;
-  background-color: white;
-}
 
 .bordertop {
   border-top: 2px solid #9933ff;
@@ -22,8 +11,8 @@ width: 60%
 
 }
 
-.customtext {
-  color: #ff3300;
+.toptext {
+  color: #6600cc;
 }
 
 .customtextt {
@@ -35,9 +24,26 @@ font-size: 20px;
 
 h1 {
   font-weight: bold;
-  font-size: 20px
+  font-size: 80px
 }
 
 .textjustify {
 text-align: justify;
+}
+
+.text{
+  font-family: Impact;
+  color: #ff00ff;
+  font-weight: bold;
+font-size: 20px;
+}
+
+.spanstyle {
+Color: red
+}
+.pink{
+Color:magenta;
+}
+.purple {
+Color: #8a0cc9;
 }
