@@ -4,7 +4,7 @@ font-family: impact;
 background-image: url(images/Lakeith.jpg);
 background-repeat: no-repeat;
 background-position: top left;
-width:700px;
+width:600px;
 }
 
 
@@ -54,13 +54,13 @@ Color: red
 Color:magenta;
 }
 
-#specialid .pink {
+#specialid  {
   font-size: 20px
 }
-#redid .red {
-  font-size:30px
+#specialid .purple {
+  font-size:15px;
 }
 
-.textjustify {
-text-align: justify;
+.centertext{
+text-align: center;
 }
