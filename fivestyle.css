@@ -19,12 +19,12 @@ width:600px;
 
 .bordertop {
   border-top: 2px solid #9933ff;
-width: 80%
+width: 100%
 }
 
 .borderbottom {
   border-bottom: 2px solid #9933ff;
-width: 80%
+width: 100%
 
 }
 
@@ -33,7 +33,7 @@ width: 80%
 }
 
 .customtext {
-font-size: 30px;
+font-size: 35px;
 }
 
 h1 {
@@ -56,14 +56,18 @@ Color:magenta;
 }
 
 #specialid  {
-  font-size: 20px
+  font-size: 30px
 }
 #specialid .purple {
-  font-size:15px;
+  font-size:23px;
 }
 
 .centertext{
 text-align: center;
+}
+
+.textjustify{
+  text-align: justify;
 }
 
 a {
