@@ -1,0 +1,38 @@
+body {
+background-color: #ffd633;
+font-family: impact;
+background-image: url(images/Lakeith.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+width:600px;
+border: 0px solid red;
+}
+
+#director {
+  color: purple;
+  border-bottom: 5px solid purple;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.largertext {
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center
+  font-size: 120px;
+  color: magenta;
+margin: 0;
+padding: 0;
+line-height: 110px;
+}
+
+.turnred {
+  color: red
+}
+
+#starring {
+  padding-top: 500px;
+}
