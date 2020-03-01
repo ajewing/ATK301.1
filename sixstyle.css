@@ -17,6 +17,8 @@ background-position: top left;
   background-color: #ffffff;
   width: 960px;
   margin: 2em auto;
+  padding: 5px;
+  grid-template-columns: repeat (12, 1fr);
 }
 
 .white {
@@ -24,7 +26,7 @@ background-position: top left;
 }
 
 h1 {
-  grid-column: span 3;
+  grid-column: span 12;
   background-color: black;
   font-family: Helvetica;
   font-weight: normal;
@@ -39,6 +41,7 @@ h2 {
 font-family: Helvetica;
 border-bottom: 3px solid black;
 width: 70%;
+grid-column: span 9;
 }
 
 nav ul {
@@ -63,7 +66,7 @@ padding: 10px;
 text-decoration: none;
 color: white;
 background-color:red;
-grid-column: span 1;
+grid-column: span 3;
 }
 
 
@@ -72,37 +75,35 @@ nav li a:hover {
   color: blue;
 }
 
-.specialp {
+main a {
   font-weight: bold;
   font-family: Georgia;
   text-align: justify;
-}
-.specialp a {
- color: red;
- font-weight: bold;
+  color: red;
+  grid-column: span 9;
 }
 
-.specialp a:link {
+main a:link {
  color: red;
 }
 
-.specialp a:visited {
+main a:visited {
  color: red;
  text-decoration: normal;
 }
 
-.specialp a:active {
+main a:active {
  color: red;
 }
 
-.specialp a:hover {
- color: blue;
+main a:hover {
+ color: red;
  text-decoration: underline;
 }
 
 footer {
   background-color: red;
-grid-column: span 3;
+grid-column: span 12;
 font-family: Verdana;
 font-style: italic;
 border: 1px solid black;
