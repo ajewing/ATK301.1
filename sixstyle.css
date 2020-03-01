@@ -12,3 +12,63 @@ background-position: top left;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.white {
+  color: white;
+}
+
+h1 {
+  grid-column: span 3;
+  background-color: black;
+}
+
+nav {
+  grid-column: span 1;
+}
+
+nav ul {
+  list-style-type:none;
+border: 0px solid red;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+  border: 1px solid blue;
+  width: 175px;
+margin-bottom: 10px;
+padding: 0px;
+background-color: red;
+}
+
+nav li a {
+  display: block;
+border: 1px solid yellow;
+padding: 10px;
+text-decoration: none;
+color: white;
+background-color:green
+}
+
+nav li a:hover {
+  background-color: darkred;
+}
+
+
+main {
+  grid-column: span 2;
+}
+
+.imagefloat {
+  float: left;
+  padding-right: 10px;
+}
+
+aside {
+  grid-column: span 1;
+}
+
+footer {
+  background-color: red;
+grid-column: span 3;
+}
