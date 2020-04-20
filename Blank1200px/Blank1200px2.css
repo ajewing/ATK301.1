@@ -1,0 +1,86 @@
+body {
+  background-color: #999999;
+  font-family: Georgia, serif;
+}
+
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  background-color: #1DA838;
+  color: white;
+  font-family:Helvetica, Arial,sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+#mainimg {
+  grid-column: span 8;
+}
+
+nav {
+  grid-column: span 4;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 24px;
+}
+
+nav li a {
+  display: block;
+  background-color: #1DA838;
+  color: white;
+  font-family: Helvetica, Arial,sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 48px;
+}
+
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+section {
+  grid-column: span 4;
+}
+
+ h2 {
+  font-family: Helvetica, Arial,sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  margin-bottom: 0px;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #1DA838;
+  font-style: italic;
+  text-align: center;
+  padding: 24px;
+}
