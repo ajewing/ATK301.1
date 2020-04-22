@@ -48,7 +48,7 @@ nav li a {
   display: block;
   background-color: #1DA838;
   color: white;
-  font-family: Helvetica, Arial,sans-serif;
+  font-family: 'Rye', cursive;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
@@ -56,6 +56,11 @@ nav li a {
   padding: 48px;
 }
 
+nav li a:hover {
+  background-color: green;
+  color: blue;
+  transition: background-color 1s; color 3;
+}
 
 main {
   grid-column: span 12;

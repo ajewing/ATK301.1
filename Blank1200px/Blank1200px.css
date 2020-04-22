@@ -15,6 +15,11 @@ body {
   grid-column-gap: 24px;
 }
 
+h1 {
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+  font-family: 'Monoton', cursive;
+}
+
 header {
   grid-column: span 12;
   background-color: #1DA838;
@@ -28,6 +33,7 @@ header {
 
 #mainimg {
   grid-column: span 8;
+  border-radius: 24px;
 }
 
 nav {
@@ -48,14 +54,19 @@ nav li a {
   display: block;
   background-color: #1DA838;
   color: white;
-  font-family: Helvetica, Arial,sans-serif;
+  font-family: 'Rye', cursive;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   padding: 24px;
+  transition: background-color 1s; color 3;
 }
 
+nav li a:hover {
+  background-color: green;
+  color: grey;
+}
 
 main {
   grid-column: span 12;
@@ -66,16 +77,73 @@ main {
 
 section {
   grid-column: span 4;
+  margin-top: 20px;
 }
 
 section h2 {
-  font-family: Helvetica, Arial,sans-serif;
-  font-size: 36px;
-  font-weight: bold;
+  font-family: novecento-carved-wide, sans-serif;
+font-weight: 1000;
+font-style: normal;
   text-transform: uppercase;
   border-bottom: 3px solid black;
   margin-bottom: 0px;
 }
+
+#example {
+  grid-column: span 12;
+}
+
+.roundedbox {
+  padding: 24px;
+  border: 3px solid red;
+  background-color: #ccc;
+  border-radius: 24px;
+}
+
+.roundedbox2 {
+  padding: 24px;
+  border: 2px solid red;
+  background-color: #ccc;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+}
+
+.circle {
+  padding: 100px;
+  width: 150px;
+  height: 150px;
+  border: 3px solid green;
+  background-color: red;
+  color: white;
+  border-radius: 500px;
+}
+
+.dropshadowbox {
+  padding: 10px;
+  border: 3px solid red;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px green; /* x, y, blur, color */
+}
+.dropshadowbox1 {
+  padding: 10px;
+  border: 3px solid red;
+  background-color: #ccc;
+  box-shadow: -10px 10px 10px green; /* x, y, blur, color */
+}
+
+.dropshadowbox2 {
+  padding: 10px;
+  border: 3px solid red;
+  background-color: #ccc;
+  box-shadow: 0px -10px 10px green; /* x, y, blur, color */
+}
+.roundedbox3 {
+  padding: 24px;
+  border: 3px solid red;
+  background-color: #ccc;
+  border-radius: 24px;
+}
+
 
 footer {
   grid-column: span 12;
@@ -83,4 +151,15 @@ footer {
   font-style: italic;
   text-align: center;
   padding: 24px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 48px;
+  transition: color 1s;
+}
+
+footer a:hover {
+  color: grey;
 }
