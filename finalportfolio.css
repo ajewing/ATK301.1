@@ -1,0 +1,118 @@
+body {
+background-image: url(images/audio.png);
+background-repeat: repeat;
+background-position: top left;
+}
+
+.imagefloat {
+  float: left;
+  padding: 10px;
+  border: 3px solid black;
+  margin: 10px;
+  grid-column: span 9;
+}
+
+#wrapper {
+  border: 3px solid black;
+  background-color: #ffffff;
+  width: 1000px;
+  margin: 2em auto;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat (12, 1fr);
+}
+
+
+h1 {
+  grid-column: span 12;
+  background-color: gold;
+  font-family: Helvetica;
+  font-weight: normal;
+  border: 4px solid black;
+  color: purple;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-weight: normal;
+font-family: Helvetica;
+border-bottom: 3px solid black;
+width: 70%;
+grid-column: span 9;
+font-weight: bold;
+color: purple;
+}
+
+nav ul {
+  list-style-type:none;
+border: 0px solid red;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+  border: 1px solid blue;
+  width: 175px;
+margin-bottom: 10px;
+padding: 0px;
+background-color: black;
+}
+
+nav li a {
+  display: block;
+border: 1px solid black;
+padding: 10px;
+text-decoration: none;
+color: gold;
+background-color: purple;
+grid-column: span 2;
+padding-left: 3px;
+}
+
+
+nav li a:hover {
+  background-color: purple;
+  color: white;
+}
+
+.customtext  {
+  font-family: Georgia;
+  text-align: justify;
+  grid-column: span 9;
+  font-weight: bold;
+}
+
+main a:link {
+ color: red;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+main a:visited {
+ color: red;
+ text-decoration: none;
+}
+
+main a:active {
+ color: red;
+text-decoration: none;
+}
+
+main a:hover {
+ color: blue;
+ text-decoration: underline;
+}
+
+footer {
+  background-color: Gold;
+grid-column: span 12;
+font-family: Verdana;
+font-style: italic;
+border: 1px solid black;
+border-top: 3px solid black;
+padding: 5px;
+text-align: center;
+margin: 0px;
+color: purple;
+}

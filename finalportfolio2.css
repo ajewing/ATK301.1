@@ -1,0 +1,76 @@
+body {
+  background-color: #004d3d;
+  font-family: Georgia, serif;
+}
+
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 3px solid white;
+  padding: 24px;
+  background-color: #blue;
+  background-image: url(images/notes.png);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+
+ h1 {
+text-align: center;
+  font-family: 'Righteous', cursive, san-sans-serif;
+font-weight: 1000;
+font-style: normal;
+  text-transform: uppercase;
+border-radius: 8px;
+font-size: 40px;
+color: #00ffff;
+background-color: #003333;
+padding: 10px;
+}
+
+
+.square {
+  padding: 90px;
+  width: 125px;
+  height: 125px;
+  border: 5px solid #00cca3;
+  background-color: blue;
+  color: #00ffff;
+  background-image: url(images/musicworld.png);
+  border-radius: 500px;
+  font-size: 16px;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #00cca3;
+  font-style: italic;
+  text-align: center;
+  padding: 36px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 48px;
+  transition: color 1s;
+}
+
+footer a:hover {
+  color: grey;
+}
+
+.Specialid {
+  font-size: 30px;
+}
