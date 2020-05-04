@@ -26,7 +26,7 @@ background-position: top left;
 h1 {
   grid-column: span 12;
   background-color: gold;
-  font-family: Helvetica;
+font-family: 'Staatliches', cursive, sans-serif;
   font-weight: normal;
   border: 4px solid black;
   color: purple;
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
   font-weight: normal;
-font-family: Helvetica;
+font-family: 'Orbitron', sans-serif;
 border-bottom: 3px solid black;
 width: 70%;
 grid-column: span 9;
@@ -63,6 +63,7 @@ nav li a {
   display: block;
 border: 1px solid black;
 padding: 10px;
+font-family: 'Changa', sans-serif;
 text-decoration: none;
 color: gold;
 background-color: purple;
