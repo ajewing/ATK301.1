@@ -1,0 +1,81 @@
+body{background-color: #brown;
+background-image: url(images/audio.png);
+ }
+
+#wrapper {
+  border: 1px solid #008066;
+  background-color: #ffffff;
+  background-image:url(images/notes.png);
+  width: 1200px;
+  height: 800px;
+  color: white;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+header {
+  grid-column: span 3;
+  background-color: #003333;
+  margin-bottom: 5px;
+  color: white;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 24px;
+}
+
+h2 {
+  margin: 5px;
+}
+nav {
+  grid-column: span 3;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  background-color: #00cca3;
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  grid-column: span 3;
+  font-size: 30px;
+}
+
+.imagefloat {
+  float: left;
+  padding-right: 10px;
+}
+
+.Specialp {
+  color: white;
+  font-size: 25px;
+}
+aside {
+  grid-column: span 1;
+}
+
+fab fa-instagram {
+  size: 3x;
+}
+
+footer {
+grid-column: span 3;
+background-color: #003333;
+text-align: center;
+}
