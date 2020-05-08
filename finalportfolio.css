@@ -1,7 +1,20 @@
 body {
-background-image: url(images/chalk.png);
-background-repeat: repeat;
-background-position: top left;
+  background-color: #004d3d;
+  font-family: Georgia, serif;
+  background-image: url(images/audio.png);
+}
+
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 3px solid white;
+  padding: 24px;
+  background-color: #blue;
+  background-image: url(images/notes.png);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
 }
 
 .imagefloat {
@@ -13,59 +26,52 @@ background-position: top left;
   border-radius: 14px
 }
 
-#wrapper {
-  border: 3px solid black;
-  background-color: #ffffff;
-  width: 1500px;
-  height: 1500px;
-  background-image: url(images/paint.png);
-  margin: 2em auto;
-  padding: 5px;
+
+main {
+  grid-column: span 12;
   display: grid;
-  grid-template-columns: repeat (12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
 }
 
 
-h1 {
-  grid-column: span 12;
-font-family: 'Staatliches', cursive, sans-serif;
-  font-weight: normal;
-  font-size:72px;
-  border: 4px solid black;
-  color: #ff00ff;
-  padding: 0px;
-  margin-top: 0px;
-  text-align: center;
+ h1 {
+text-align: center;
+  font-family: 'Righteous', cursive, san-sans-serif;
+font-weight: 1000;
+font-style: normal;
+  text-transform: uppercase;
+border-radius: 8px;
+font-size: 60px;
+width: 45%;
+color: #00ffff;
+background-color: #003333;
+padding: 10px;
+  text-shadow: 5px 5px 5px #000; /* x, y, blur, color */
 }
 
 h2 {
-  font-weight: normal;
-font-family: 'Orbitron', sans-serif;
-border-bottom: 3px solid Gold;
-width: 75%;
-font-size: 48
-grid-column: span 12;
-font-weight: bold;
-color: purple;
-padding: 0px;
+text-align: center;
+ font-family: 'Righteous', cursive, san-sans-serif;
+font-weight: 1000;
+font-style: normal;
+ text-transform: uppercase;
+border-radius: 8px;
+font-size: 35px;
+width: 70%;
+color: #00ffff;
+background-color: #003333;
+padding: 10px;
+ text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
 }
-
-nav ul {
-  list-style-type: none;
-  display: inline-block;
-margin: 0;
-padding: 0;
-border-radius: 24px;
-
-}
-
 nav li {
   width: 175px;
 margin-bottom: 10px;
 padding: 0px;
-background-color: black;
+background-color: #00cca3;
 border-radius: 8px;
 display: block;
+grid-column: span 12;
 }
 
 nav li a {
@@ -76,54 +82,50 @@ font-family: 'Changa', sans-serif;
 text-decoration: none;
 border-radius: 8px;
 color: gold;
-background-color: #cc00cc;
+background-color: ##00cca3;
 grid-column: span 12;
 padding-left: 3px;
 }
 
 
 nav li a:hover {
-  background-color: purple;
+  background-color: blue;
   color: white;
 }
 
-.customtext  {
-  font-family: Georgia;
-  text-align: justify;
-  grid-column: span 9;
-  font-weight: bold;
-}
 
-main a:link {
- color: red;
- text-decoration: none;
- font-weight: bold;
-}
-
-main a:visited {
- color: red;
- text-decoration: none;
-}
-
-main a:active {
- color: red;
-text-decoration: none;
-}
-
-main a:hover {
- color: blue;
- text-decoration: underline;
+.square {
+  padding: 90px;
+  width: 125px;
+  height: 125px;
+  border: 5px solid #00cca3;
+  background-color: blue;
+  color: #00ffff;
+  background-image: url(images/musicworld.png);
+  border-radius: 500px;
+  font-size: 17px;
+  grid-column: span 12;
 }
 
 footer {
-  background-color: Gold;
-grid-column: span 12;
-font-family: Verdana;
-font-style: italic;
-border: 3px solid black;
-border-top: 3px solid black;
-padding: 0px;
-text-align: center;
-margin: 0px;
-color: purple;
+  grid-column: span 12;
+  background-color: #00cca3;
+  font-style: italic;
+  text-align: center;
+  padding: 36px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 48px;
+  transition: color 1s;
+}
+
+footer a:hover {
+  color: grey;
+}
+
+.Specialid {
+  font-size: 30px;
 }
