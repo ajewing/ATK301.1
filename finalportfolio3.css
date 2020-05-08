@@ -19,6 +19,7 @@ header {
   margin-bottom: 5px;
   color: white;
   margin: 10px;
+  font-size: 30px;
   text-align: center;
   border-radius: 24px;
 }
@@ -66,6 +67,10 @@ main {
 }
 aside {
   grid-column: span 1;
+}
+
+fab fa-instagram {
+  size: 3x;
 }
 
 footer {
