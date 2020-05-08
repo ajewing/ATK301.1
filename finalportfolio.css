@@ -20,7 +20,7 @@ body {
 .imagefloat {
   float: left;
   padding: 10px;
-  border: 2px solid Gold;
+  border: 2px solid white;
   margin: 10px;
   grid-column: span 9;
   border-radius: 14px
@@ -81,7 +81,7 @@ padding: 10px;
 font-family: 'Changa', sans-serif;
 text-decoration: none;
 border-radius: 8px;
-color: gold;
+color: white;
 background-color: ##00cca3;
 grid-column: span 12;
 padding-left: 3px;
